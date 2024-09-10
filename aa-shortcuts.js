@@ -45,3 +45,10 @@ function setUpTriggers() {
     updateTimeBasedTriggers()
     updateSpreadsheetTriggers()
 }
+
+// carefull with running this one I have never done it. But it could work very well. I just put all of the funtions needed to reset the entire thing in this function. 
+function entireReset() {
+  updateFSV4();
+  createMissingReports();
+  shareFileSystem();
+}
